@@ -39,6 +39,56 @@
             "location": "/about/#project-layout",
             "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
             "title": "Project layout"
+        },
+        {
+            "location": "/dynamic_labor_demand_china/",
+            "text": "Dynamic labor demand in China\n\n\nWhat we learn from the paper? \nThis is an macroeconomic level of estimation. It shows that public sector have\nThe paper. []\n\n\n\nFeatures in data\n\n\nFirst, there is more inaction of labor adjustment, defined as job destruction or creation rate less than 0.1%, in private plants. Second, the private plants also exhibit a higher frequency of large job creation and destruction rates. Public plants, in contrast, have a higher frequency of small job creation and destruction rates.\n\n\nIn other words, private firms either inact or act in a large size, public firms act in a small size.\n\n\nThe model\n\n\nBoth public and private plants solve a dynamic problem of solving the optimal number of workers and the hours. Private plants' objective is a renenue minus wage cost and adjustment costs. Public plants have the extra objective such as employment stabalizer (basically an extra cost), job creator, and soft budget constraint (so govenment subsidize the public plants for these extra objectives). Basically, the parameters are different for public and private sectors and are waiting for estimation.\n\n\nEstimation\n\n\nThe simulated moments are obtained by solving the dynamic programming problem in for a given value of $\\Theta$. The resulting decision rules are used to simulate a panel data set. The simulated panel has 350 time periods and 400 plants. The simulated moments are calculated from that data set. As the process is ergodic (after dropping the first 50 periods), the simulated microeconomic moments are determined by the total observations. \n\n\nThey pick appropriate moments to match. In particular, they run a biased reduced OLS for the production function and the profitability shock, whose parameters are also used as moments.\n\n\nConclusion\n\n\nOverall, the estimated adjustment costs are considerably larger for the public plants relative to the private ones. This is particularly true of the fixed firing costs. This would imply public sector use either inaction or burst of unemployment, which goes against the observations.\n\n\nThis is explained by the costs of adjusting hours, which is considerably higher for the public plants compared to the private ones. A higher cost of hours adjustment implies that the public plants relymore on adjustment in the number of workers, despite the higher costs of adjusting numbers. This translates into less inaction. \n\n\nThe quadratic adjustment costs are an order of magnitude larger for public plants. In this sense, the public plants are penalized for employment variations. Note that these costs are a bit smaller for SCEs than the collectively controlled public plants. This is the support for the\n\u201cemployment stabilizing\u201d objective. The adjustment costs are larger for public compared to the private plants.",
+            "title": "Dynamic labor demand in China"
+        },
+        {
+            "location": "/dynamic_labor_demand_china/#dynamic-labor-demand-in-china",
+            "text": "What we learn from the paper? \nThis is an macroeconomic level of estimation. It shows that public sector have\nThe paper. []",
+            "title": "Dynamic labor demand in China"
+        },
+        {
+            "location": "/dynamic_labor_demand_china/#features-in-data",
+            "text": "First, there is more inaction of labor adjustment, defined as job destruction or creation rate less than 0.1%, in private plants. Second, the private plants also exhibit a higher frequency of large job creation and destruction rates. Public plants, in contrast, have a higher frequency of small job creation and destruction rates.  In other words, private firms either inact or act in a large size, public firms act in a small size.",
+            "title": "Features in data"
+        },
+        {
+            "location": "/dynamic_labor_demand_china/#the-model",
+            "text": "Both public and private plants solve a dynamic problem of solving the optimal number of workers and the hours. Private plants' objective is a renenue minus wage cost and adjustment costs. Public plants have the extra objective such as employment stabalizer (basically an extra cost), job creator, and soft budget constraint (so govenment subsidize the public plants for these extra objectives). Basically, the parameters are different for public and private sectors and are waiting for estimation.",
+            "title": "The model"
+        },
+        {
+            "location": "/dynamic_labor_demand_china/#estimation",
+            "text": "The simulated moments are obtained by solving the dynamic programming problem in for a given value of $\\Theta$. The resulting decision rules are used to simulate a panel data set. The simulated panel has 350 time periods and 400 plants. The simulated moments are calculated from that data set. As the process is ergodic (after dropping the first 50 periods), the simulated microeconomic moments are determined by the total observations.   They pick appropriate moments to match. In particular, they run a biased reduced OLS for the production function and the profitability shock, whose parameters are also used as moments.",
+            "title": "Estimation"
+        },
+        {
+            "location": "/dynamic_labor_demand_china/#conclusion",
+            "text": "Overall, the estimated adjustment costs are considerably larger for the public plants relative to the private ones. This is particularly true of the fixed firing costs. This would imply public sector use either inaction or burst of unemployment, which goes against the observations.  This is explained by the costs of adjusting hours, which is considerably higher for the public plants compared to the private ones. A higher cost of hours adjustment implies that the public plants relymore on adjustment in the number of workers, despite the higher costs of adjusting numbers. This translates into less inaction.   The quadratic adjustment costs are an order of magnitude larger for public plants. In this sense, the public plants are penalized for employment variations. Note that these costs are a bit smaller for SCEs than the collectively controlled public plants. This is the support for the\n\u201cemployment stabilizing\u201d objective. The adjustment costs are larger for public compared to the private plants.",
+            "title": "Conclusion"
+        },
+        {
+            "location": "/job_security/",
+            "text": "Dynamic labor demand in China\n\n\nPaper",
+            "title": "Job security"
+        },
+        {
+            "location": "/job_security/#dynamic-labor-demand-in-china",
+            "text": "Paper",
+            "title": "Dynamic labor demand in China"
+        },
+        {
+            "location": "/competitive_ojs/",
+            "text": "Competitive On-the-Job Search\n\n\nWhat we learn from the paper? \nThis is an macroeconomic level of estimation. It shows that public sector have\n\n\n\nThe paper",
+            "title": "Competitive On-the-Job search"
+        },
+        {
+            "location": "/competitive_ojs/#competitive-on-the-job-search",
+            "text": "What we learn from the paper? \nThis is an macroeconomic level of estimation. It shows that public sector have  The paper",
+            "title": "Competitive On-the-Job Search"
         }
     ]
 }
